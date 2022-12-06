@@ -90,7 +90,7 @@ button:hover{
   #calculator input{
     width: 387px;
     height: 55px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
   }
   button {
     width: 70px;
@@ -99,5 +99,48 @@ button:hover{
   }
   .zero {
     width: 182px;
+  }
+}
+
+@media (max-width: 550px) {
+  #calculator input{
+    width: 310px;
+    height: 45px;
+    margin-bottom: 30px;
+  }
+  button {
+    font-size: 23px;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+  }
+  .zero {
+    width: 150px;
+  }
+}
+
+@media (max-width: 400px) {
+  #calculator input{
+    width: 290px;
+  }
+  button {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+  }
+  .zero {
+    width: 130px;
+  }
+}
+
+@media (max-width: 318px) {
+  #calculator input {
+    width: 257px;
+  }
+  button {
+    margin: 7px;
+  }
+  .zero {
+    width: 123px;
   }
 }

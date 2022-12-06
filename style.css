@@ -72,6 +72,7 @@ button {
   cursor: pointer;
   outline: 0;
   transition: 300ms linear;
+  user-select: none;
 }
 button:hover{
   background-color: var(--hover-color);

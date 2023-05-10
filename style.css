@@ -153,6 +153,7 @@ button:hover{
   .screen {
     font-size: 4rem;
     padding-inline: 25px;
+    row-gap: .7rem;
   }
   button {
     font-size: 30px;

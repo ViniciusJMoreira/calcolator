@@ -116,6 +116,7 @@ button:hover{
     height: 100%;
     border: 0;
     align-items: center;
+    padding: 0;
   }
   .screen {
     width: 80%;
@@ -151,10 +152,17 @@ button:hover{
 @media screen and (max-width: 480px) {
   .screen {
     font-size: 4.2rem;
+    padding-inline: 25px;
   }
   button {
     font-size: 30px;
-    width: 60px;
-    height: 60px;
+    width: 65px;
+    height: 65px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .zero {
+    width: 90%;
   }
 }

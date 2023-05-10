@@ -47,7 +47,7 @@ body{
 main {
   display: grid;
   place-items: center;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .calculator-container {
@@ -114,9 +114,11 @@ button:hover{
     align-items: center;
   }
   .screen {
+    height: 10%;
     width: 80%;
     font-size: 5rem;
     padding-inline: 2rem;
+    border: 1px solid;
   }
   .keys-container {
     width: 80%;

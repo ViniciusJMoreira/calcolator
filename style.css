@@ -162,10 +162,10 @@ button:hover{
 
 @media screen and (max-width: 400px) {
   .calculator-container {
-    width: 300px;
+    width: 350px;
   }
   .keys-container {
-    row-gap: .7rem;
+    row-gap: 1rem;
   }
   .zero {
     width: 90%;

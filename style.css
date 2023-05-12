@@ -175,3 +175,15 @@ button:hover{
     height: 60px;
   }
 }
+
+@media screen and (max-width: 350px) {
+  .calculator-container {
+    width: 300px;
+  }
+  .screen {
+    font-size: 3.5rem;
+  }
+  .keys-container {
+    row-gap: .7rem;
+  }
+}

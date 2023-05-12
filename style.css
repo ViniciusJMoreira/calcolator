@@ -36,6 +36,8 @@ body{
 .zero {
   grid-area: 1 / 1 / 2 / 3;
   width: 90%;
+  text-align: start;
+  padding-inline-start: 15%;
 }
 .comma {
   grid-area: 1 / 3 / 2 / 4;
@@ -159,6 +161,12 @@ button:hover{
 }
 
 @media screen and (max-width: 400px) {
+  .calculator-container {
+    width: 300px;
+  }
+  .keys-container {
+    row-gap: .7rem;
+  }
   .zero {
     width: 90%;
   }

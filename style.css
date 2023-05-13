@@ -1,7 +1,7 @@
 :root {
-  --primary-color: #313131;
-  --secondary-color: #f69a06;
-  --color2: #a0a0a0;
+  --primary-button-color: #313131;
+  --secondary-button-color: #f69a06;
+  --tertiary-button-color: #a0a0a0;
   --hover-color: #d6d6d6;
   --white : #f8f8f8;
   --black : #000;
@@ -18,11 +18,11 @@ body{
   background-color:var(--black);
 }
 
-.color {
-  background-color: var(--secondary-color);
+.secondary-color {
+  background-color: var(--secondary-button-color);
 }
-.color2 {
-  background-color: var(--color2);
+.tertiary-color {
+  background-color: var(--tertiary-button-color);
   color: var(--black);
 }
 
@@ -92,7 +92,7 @@ button {
   border-radius: 50px;
   font-size: 28px;
   font-weight: 600;
-  background-color: var(--primary-color);
+  background-color: var(--primary-button-color);
   width: 60px;
   height: 60px;
   border: 0;
@@ -103,6 +103,7 @@ button {
 }
 button:hover{
   background-color: var(--hover-color);
+  color: var(--black);
 }
 
 @media screen and (max-width: 768px) {
